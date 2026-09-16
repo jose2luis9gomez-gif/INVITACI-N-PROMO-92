@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#101114"><meta name="description" content="Invitación digital interactiva - Promoción 1992, Colegio Nacional de Cerrito, Ñeembucú.">
+<title>Promo '92 · Encuentro de Dos Mundos</title>
+<style>
+:root{--bg:#0d0f12;--card:#171a1f;--gold:#d8b46a;--gold2:#f0d79b;--text:#f5f1e8;--muted:#b8b3aa;--line:#36322b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at top,#25231d 0,#0d0f12 45%);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}button,a{font:inherit}.wrap{max-width:720px;margin:auto;padding:18px}.envelope{min-height:100svh;display:grid;place-items:center}.cover{position:relative;overflow:hidden;width:100%;min-height:88svh;border:1px solid #5c4c2f;border-radius:28px;background:linear-gradient(145deg,rgba(255,255,255,.04),rgba(255,255,255,.01)),radial-gradient(circle at 50% 20%,rgba(216,180,106,.18),transparent 42%),#111317;box-shadow:0 25px 80px #0008;padding:42px 24px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}.cover:before,.cover:after{content:"";position:absolute;width:180px;height:180px;border:1px solid #8b7041;opacity:.35;transform:rotate(45deg)}.cover:before{top:-115px;left:-115px}.cover:after{bottom:-115px;right:-115px}.eyebrow{letter-spacing:.23em;text-transform:uppercase;color:var(--gold2);font-size:.76rem}.title{font-family:Georgia,serif;font-size:clamp(2.3rem,9vw,4.7rem);line-height:.95;margin:20px 0 12px;font-weight:500}.subtitle{font-size:1rem;color:var(--muted);max-width:530px;line-height:1.6}.years{font-family:Georgia,serif;color:var(--gold2);font-size:2.1rem;margin:18px 0}.open{margin-top:22px;border:1px solid var(--gold);background:var(--gold);color:#15130f;border-radius:999px;padding:14px 25px;font-weight:800;cursor:pointer;box-shadow:0 10px 35px #d8b46a33}.hint{margin-top:12px;font-size:.75rem;color:#89857d}.hidden{display:none}.main{animation:rise .8s ease both}@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}section{margin:18px 0;padding:26px 20px;border:1px solid #292c31;border-radius:24px;background:rgba(23,26,31,.88);backdrop-filter:blur(10px)}h2{font-family:Georgia,serif;font-weight:500;font-size:1.65rem;margin:0 0 12px;color:var(--gold2)}p{line-height:1.65;color:#ddd8ce}.quote{text-align:center;font-family:Georgia,serif;font-size:1.25rem;color:#f2ead9}.datebox{display:grid;grid-template-columns:1fr 1fr;gap:12px}.info{padding:15px;border:1px solid var(--line);border-radius:16px;background:#111317}.label{font-size:.7rem;text-transform:uppercase;letter-spacing:.14em;color:var(--muted)}.value{margin-top:5px;font-weight:700}.count{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:16px}.time{border:1px solid var(--line);border-radius:14px;padding:12px 6px;text-align:center}.num{font-size:1.7rem;font-weight:800;color:var(--gold2)}.unit{font-size:.65rem;color:var(--muted);text-transform:uppercase}.actions{display:grid;gap:10px}.btn{display:flex;justify-content:center;align-items:center;gap:8px;text-decoration:none;border:1px solid #4a453b;border-radius:15px;padding:14px;background:#12151a;color:#fff;font-weight:750;cursor:pointer}.btn.primary{background:var(--gold);color:#16130e;border-color:var(--gold)}.btn.whatsapp{border-color:#4d6654}.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.photo{aspect-ratio:1/1;border-radius:18px;border:1px dashed #625942;display:grid;place-items:center;text-align:center;padding:14px;background:linear-gradient(135deg,#1b1e23,#121419);color:#aaa;font-size:.85rem}.footer{text-align:center;padding:18px 0 40px;color:#8f8a81;font-size:.8rem}.music{position:fixed;right:14px;bottom:14px;z-index:5;border:1px solid #6c5936;background:#15130fdd;color:#f4dfaa;border-radius:999px;padding:11px 15px;box-shadow:0 8px 30px #0008;cursor:pointer}.small{font-size:.82rem;color:var(--muted)}@media(min-width:600px){.datebox{grid-template-columns:repeat(4,1fr)}.gallery{grid-template-columns:repeat(3,1fr)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div id="cover" class="envelope">
+    <div class="cover">
+      <div class="eyebrow">Segundo encuentro · Promoción '92</div>
+      <div class="title">Encuentro<br>de Dos Mundos</div>
+      <div class="years">34 años · Toda una historia</div>
+      <div class="subtitle">Colegio Nacional de Cerrito, Ñeembucú<br>Una nueva oportunidad para volver a encontrarnos, recordar y celebrar.</div>
+      <button class="open" onclick="openInvitation()">💌 Abrir invitación</button>
+      <div class="hint">Toca para entrar</div>
+    </div>
+  </div>
+
+  <main id="main" class="main hidden">
+    <section>
+      <div class="eyebrow">Ex alumnos de la Promo '92</div>
+      <h2>SEGUNDO MARAVILLOSO ENCUENTRO<br>DE COMPAÑEROS Y COMPAÑERAS</h2>
+      <p class="quote">“34 AÑOS”<br>“TODA UNA HISTORIA”</p>
+      <p>Después de tantos años, queremos volver a compartir anécdotas, risas, recuerdos y momentos que quedaron para siempre en nuestra historia.</p>
+    </section>
+
+    <section>
+      <h2>📅 La fecha</h2>
+      <div class="datebox">
+        <div class="info"><div class="label">Fecha</div><div class="value">28 de noviembre de 2026</div></div>
+        <div class="info"><div class="label">Inicio</div><div class="value">08:00 hs</div></div>
+        <div class="info"><div class="label">Finalización</div><div class="value">00:00 hs · 29/11</div></div>
+        <div class="info"><div class="label">Generación</div><div class="value">Promo 1992</div></div>
+      </div>
+      <div class="count" aria-label="Cuenta regresiva"><div class="time"><div id="days" class="num">--</div><div class="unit">días</div></div><div class="time"><div id="hours" class="num">--</div><div class="unit">horas</div></div><div class="time"><div id="mins" class="num">--</div><div class="unit">minutos</div></div><div class="time"><div id="secs" class="num">--</div><div class="unit">segundos</div></div></div>
+    </section>
+
+    <section>
+      <h2>📍 Lugar del encuentro</h2>
+      <p class="small">La ubicación está vinculada al mapa proporcionado. Puedes abrirla directamente desde el botón.</p>
+      <div class="actions"><a class="btn primary" href="https://maps.app.goo.gl/GFQqiJ4NVYYGHqhQA" target="_blank" rel="noopener">📍 Ver ubicación en el mapa</a></div>
+      <p class="small" style="margin-bottom:0">Dirección detallada: pendiente de agregar.</p>
+    </section>
+
+    <section>
+      <h2>🤝 Confirmación</h2>
+      <p>Confirma tu asistencia para que podamos preparar este encuentro con todo el cariño que merece.</p>
+      <div class="actions"><button class="btn whatsapp" onclick="confirmWhatsApp()">📲 Confirmar asistencia por WhatsApp</button><button class="btn" onclick="shareInvite()">🔗 Compartir invitación</button></div>
+      <p id="shareNote" class="small" style="margin-bottom:0"></p>
+    </section>
+
+    <section>
+      <h2>📸 Nuestros recuerdos</h2>
+      <div class="gallery">
+        <div class="photo">Foto 1<br>Agrega aquí un recuerdo de la Promo '92</div>
+        <div class="photo">Foto 2<br>Agrega aquí un recuerdo de la Promo '92</div>
+        <div class="photo">Foto 3<br>Agrega aquí un recuerdo de la Promo '92</div>
+        <div class="photo">Foto 4<br>Agrega aquí un recuerdo de la Promo '92</div>
+        <div class="photo">Foto 5<br>Agrega aquí un recuerdo de la Promo '92</div>
+        <div class="photo">Foto 6<br>Agrega aquí un recuerdo de la Promo '92</div>
+      </div>
+      <p class="small">Galería preparada para incorporar las fotografías que envíes.</p>
+    </section>
+
+    <section style="text-align:center">
+      <div class="eyebrow">Nos volvemos a encontrar</div>
+      <h2 style="font-size:2rem">34 AÑOS · TODA UNA HISTORIA</h2>
+      <p>¡Que este segundo encuentro sea otro capítulo inolvidable de nuestra historia!</p>
+      <button class="btn" onclick="closeInvitation()">💌 Cerrar invitación</button>
+    </section>
+    <div class="footer">Promo '92 · Colegio Nacional de Cerrito, Ñeembucú · 2026</div>
+  </main>
+</div>
+<button id="musicBtn" class="music" onclick="toggleMusic()" aria-label="Controlar música">🎵 Música</button>
+<audio id="audio" src="musica.mp3" preload="auto" loop></audio>
+<script>
+const EVENT=new Date('2026-11-28T08:00:00-03:00');
+const WHATSAPP_NUMBER=''; // Agrega aquí el número con código de país, sin + ni espacios.
+function openInvitation(){document.getElementById('cover').classList.add('hidden');document.getElementById('main').classList.remove('hidden');const a=document.getElementById('audio');a.play().catch(()=>{});window.scrollTo({top:0,behavior:'smooth'})}
+function closeInvitation(){document.getElementById('main').classList.add('hidden');document.getElementById('cover').classList.remove('hidden');window.scrollTo({top:0,behavior:'smooth'})}
+function tick(){let d=Math.max(0,EVENT-Date.now());let s=Math.floor(d/1000);let days=Math.floor(s/86400);s%=86400;let h=Math.floor(s/3600);s%=3600;let m=Math.floor(s/60);s%=60;document.getElementById('days').textContent=days;document.getElementById('hours').textContent=String(h).padStart(2,'0');document.getElementById('mins').textContent=String(m).padStart(2,'0');document.getElementById('secs').textContent=String(s).padStart(2,'0')}
+setInterval(tick,1000);tick();
+function toggleMusic(){const a=document.getElementById('audio');if(a.paused){a.play().then(()=>document.getElementById('musicBtn').textContent='🔊 Música').catch(()=>{});}else{a.pause();document.getElementById('musicBtn').textContent='🔇 Música'}}
+function confirmWhatsApp(){if(!WHATSAPP_NUMBER){alert('Falta configurar el número de WhatsApp de la organización. Edite WHATSAPP_NUMBER en el archivo index.html.');return}const msg=encodeURIComponent("¡Hola! Confirmo mi asistencia al Segundo Encuentro de la Promoción '92 — Encuentro de Dos Mundos, el 28 de noviembre de 2026.");window.open('https://wa.me/'+WHATSAPP_NUMBER+'?text='+msg,'_blank')}
+async function shareInvite(){const data={title:"Segundo Encuentro Promo '92",text:"Segundo Maravilloso Encuentro de Compañeros y Compañeras · 34 años · Toda una historia",url:location.href};if(navigator.share){try{await navigator.share(data);return}catch(e){}}await navigator.clipboard?.writeText(location.href);document.getElementById('shareNote').textContent='Enlace copiado. Puedes pegarlo en WhatsApp, Facebook, Instagram u otra aplicación.'}
+</script>
+</body></html>
